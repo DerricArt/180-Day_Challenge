@@ -1,5 +1,5 @@
 :root{
-   --D_Grey: #4D4D4D;
+    --D_Grey: #4D4D4D;
 }
 /*
     Color scheme
@@ -27,31 +27,27 @@
 .header {
     display: flex;
 
-    padding: 11.14px 100.23px;
+    padding: 16.71px 150.35px;
 
-    gap: 43.85px;
+    gap: 65.775px;
 
     font-family: Inter, sans-serif;
-
-
 }
 
 .right_menu {
     display: flex;
-    width: 650.48px;
-    gap: 22.27px;
-
+    width: 975.72px;
+    gap: 33.405px;
 }
 
 .header_menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 16.71px;
+    gap: 25.065px;
 
-    line-height: 16.7px;
-    font-size: 11.14px;
-
+    line-height: 25.05px;
+    font-size: 16.71px;
 }
 
 .header_menu a {
@@ -60,21 +56,20 @@
 }
 
 nav a:first-of-type {
-    margin-left: 187.13px;
-    padding: 0 16px 0 16px;
+    margin-left: 280.695px;
+    padding: 0 24px 0 24px;
 }
 
 .registerBtn {
     flex: 1;
-    padding: 9.74px 22.27px;
-    border-radius: 2.78px;
+    padding: 14.61px 33.405px;
+    border-radius: 4.17px;
     border: none;
     color: #fff;
 
-    font-size: 11.14px;
-    line-height: 16.7px;
+    font-size: 16.71px;
+    line-height: 25.05px;
     font-weight: 500;
-
 }
 
 /*  Hero Section  */
@@ -83,38 +78,38 @@ nav a:first-of-type {
     flex-direction: column;
     background-color: #F5F7FA;
     width: 100%;
-    height: calc(100vh - 58.76px);
+    height: calc(100vh - 88.14px);
 }
 .hero_container {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    gap: 72.39px;
+    gap: 108.585px;
 
     width: 100%;
-    height: 416.95px;
+    height: 625.425px;
 }
 
 .hero_first_frame {
     display: flex;
     flex-direction: column;
 
-    gap: 22.27px;
+    gap: 33.405px;
 }
 
 .hero_text {
     display: flex;
     flex-direction: column;
 
-    gap: 11.14px;
+    gap: 16.71px;
 }
 
 .hero__first_text {
-    font-size: 44.55px;
+    font-size: 66.825px;
     font-family: inter, sans-serif;
     color: var(--D_Grey);
-    line-height: 52.9px;
+    line-height: 79.35px;
     font-weight: 600;
 }
 .hero__span_in_text {
@@ -122,24 +117,22 @@ nav a:first-of-type {
 }
 
 .hero__second_text {
-    font-size: 11.14px;
+    font-size: 16.71px;
     font-family: inter, sans-serif;
     color: #717171;
-
 }
 
 .hero_btn {
-    width: 89.55px;
-    height: 36.49px;
+    width: 134.325px;
+    height: 54.735px;
 
-    font-size: 11.14px;
+    font-size: 16.71px;
     font-weight: 500;
-    line-height: 16.7px;
+    line-height: 25.05px;
     text-align: center;
 
     border: none;
-    border-radius: 2.78px;
+    border-radius: 4.17px;
 
     color: #fff;
-
 }
