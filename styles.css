@@ -22,6 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter, sans-serif;
 }
 
 .header {
@@ -30,8 +31,6 @@
     padding: 16.71px 150.35px;
 
     gap: 65.775px;
-
-    font-family: Inter, sans-serif;
 }
 
 .right_menu {
@@ -72,6 +71,14 @@ nav a:first-of-type {
     font-weight: 500;
 }
 
+/*  Main  */
+main {
+    display: flex;
+    flex-direction: column;
+
+    gap: 27.84px;
+}
+
 /*  Hero Section  */
 .hero {
     display: flex;
@@ -107,7 +114,6 @@ nav a:first-of-type {
 
 .hero__first_text {
     font-size: 66.825px;
-    font-family: inter, sans-serif;
     color: var(--D_Grey);
     line-height: 79.35px;
     font-weight: 600;
@@ -118,7 +124,6 @@ nav a:first-of-type {
 
 .hero__second_text {
     font-size: 16.71px;
-    font-family: inter, sans-serif;
     color: #717171;
 }
 
@@ -135,4 +140,45 @@ nav a:first-of-type {
     border-radius: 4.17px;
 
     color: #fff;
+}
+
+/*  Client Section  */
+.client {
+    display: flex;
+    flex-direction: column;
+
+    gap: 11.14px;
+
+    height: 132.92px;
+    width: 100%;
+}
+
+.client_container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5.57px;
+}
+
+.section_title {
+    color: var(--D_Grey);
+    font-size: 25.06px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30.6px;
+}
+
+.description {
+    color: #717171;
+    font-size: 11.14px;
+    text-align: center;
+    line-height: 16.7px;
+}
+
+.client_logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16.71px;
 }
