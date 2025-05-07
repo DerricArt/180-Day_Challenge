@@ -293,15 +293,58 @@ main {
     .unlock_container {
         display: flex;
         justify-content: center;
-        gap: calc(100px * 1.5);
+        gap: calc(83px * 1.5);
+
+        height: calc(301.4px * 1.5);
     }
-        .body_content__first_icon {
+        .body_content__icon {
+            display: flex;
+            align-items: center;
             width: calc(307.66px * 1.5);
+            height: calc(301.4px * 1.5);
         }
+            .body_content__first_icon {
+                width: calc(307.66px * 1.5);
+                height: calc(229px * 1.5);
+            }
         .body_content__text_and_button {
             display: flex;
-            flex-direction: column;
-
-            gap: calc(22.27px * 1.5);
+            align-items: center;
             width: calc(460.1px * 1.5);
+        }
+            .body_content__text_and_button_container {
+                display: flex;
+                flex-direction: column;
+                gap: calc(22.27px * 1.5);
+            }
+                .body_content__text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: calc(11.14px * 1.5);
+
+                    width: calc(418.34px * 1.5);
+                }
+
+/* Achievements_section */
+.achievements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: calc(202.94px * 1.5);
+
+}
+    .achievements_section_heading_container {
+        display: flex;
+        flex-direction: column;
+
+        gap: calc(5.57px * 1.5);
+
+        width: calc(375.88px * 1.5);
+        height: calc(84.57px * 1.5);
+    }
+        .achievements_section_heading {
+            width: calc(284px * 1.5);
+            height: calc(64px * 1.5);
         }
